@@ -8,80 +8,81 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
+
     <header class="bg-white">
-        <nav class="flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
-          <div class="flex">
-            <a href="#" class="-m-1.5 p-1.5">
+
+        <nav class="flex max-w-full top-0 justify-between p-6 h-[168px] " aria-label="Global">
+
+          <div class="flex justify-between">
+
+            <a href="#" class="">
+
               <span class="text-xl font-medium">Tailwind site</span>
+
             </a>
+
           </div>
+
           <!-- Menu and Sign In on the right -->
+
           <div class="flex items-center space-x-8">
+
             <!-- Desktop menu -->
+
             <div class="hidden lg:flex lg:gap-x-12 text-xl font-medium text-black">
               <a href="#" >Page</a>
               <a href="#" >Page</a>
               <a href="#" >Page</a>
               <a href="#" >Page</a>
             </div>
+
             <!-- Sign In Button -->
+
             <a href="#" class="inline-block rounded-[10px] bg-black px-6 py-3.5 text-xl font-medium text-white ">Log in</a>
-            <!-- Mobile menu button -->
-            <!-- <button type="button" class="lg:hidden -m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
-              <span class="sr-only">Open main menu</span>
-              <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-              </svg>
-            </button> -->
+
           </div>
+
         </nav>
-        <div class="flex flex-col space-y-[40px] ml-[40px] mt-[30px] max-w-[844px] max-h-[289px]">
 
-            <div class="">
-                <span class="font-bold text-black text-[64px]">Landing page title</span>
+    </header>
+
+    <!-- section 1 -->
+
+    <main>
+        <section>
+
+            <div class="flex flex-col space-y-[40px] ml-[40px] max-w-[844px] max-h-[289px]">
+
+                <div class="">
+                    <span class="font-bold text-black text-[64px]">Landing page title</span>
+                </div>
+
+                <div>
+                    <span class="text-black text-[24px] font-normal text-opacity-75">Subheading that sets up context, shares more info about the website, or generally gets people psyched to keep scrolling. </span>
+                </div>
+
+                <div>
+                <a href="#" class="inline-block rounded-[10px] bg-black px-[32px] py-[20px] text-xl font-medium text-white">Button</a>
+                </div>
+
             </div>
+
+        
 
             <div>
-                <span class="text-black text-[24px] font-normal text-opacity-75">Subheading that sets up context, shares more info about the website, or generally gets people psyched to keep scrolling. </span>
+                <img class="max-w-full max-h-full mt-[70px] ml-[50px]" src="src/Hero Image.png" alt="#">
             </div>
 
+        </section> 
+
+        <!-- section2 -->
+
+        <section>
             <div>
-            <a href="#" class="inline-block rounded-[10px] bg-black px-[32px] py-[20px] text-xl font-medium text-white">Button</a>
-           </div>
+                
+            </div>
+        </section>
 
-        </div>
-        <!-- Mobile menu -->
-        <!-- <div class="lg:hidden" role="dialog" aria-modal="true">
-          <div class="fixed inset-0 z-10"></div>
-          <div class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
-            <div class="flex items-center justify-between">
-              <a href="#" class="-m-1.5 p-1.5">
-                <span class="sr-only">Your Company</span>
-                <img class="h-8 w-auto" src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=600" alt="">
-              </a>
-              <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700">
-                <span class="sr-only">Close menu</span>
-                <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-                </svg>
-              </button>
-            </div>
-            <div class="mt-6 flow-root">
-              <div class="-my-6 divide-y divide-gray-500/10">
-                <div class="space-y-2 py-6">
-                  <a href="#" class="block rounded-lg px-3 py-2 text-base font-semibold text-gray-900 hover:bg-gray-50">Product</a>
-                  <a href="#" class="block rounded-lg px-3 py-2 text-base font-semibold text-gray-900 hover:bg-gray-50">Features</a>
-                  <a href="#" class="block rounded-lg px-3 py-2 text-base font-semibold text-gray-900 hover:bg-gray-50">Marketplace</a>
-                  <a href="#" class="block rounded-lg px-3 py-2 text-base font-semibold text-gray-900 hover:bg-gray-50">Company</a>
-                </div>
-                <div class="py-6">
-                  <a href="#" class="block rounded-lg px-3 py-2 text-base font-semibold text-gray-900 hover:bg-gray-50">Log in</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> -->
-      </header>
-      
+    </main>
 </body>
 </html>
